@@ -1,8 +1,8 @@
    
 const mongoose = require("mongoose");
 //const uri = "mongodb://localhost/nutribyte";
-const uri =
-"mongodb+srv://ndwive:nutribyte@cluster0.st8ag.mongodb.net/nutribyte?retryWrites=true&w=majority&appName=Cluster0";
+
+const uri = process.env.MONGO_URI 
 
 try {
     mongoose.connect(uri);
