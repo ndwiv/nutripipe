@@ -1,0 +1,24 @@
+{
+  "name": "nutripipe",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndwiv/nutripipe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndwiv/nutripipe/issues"
+  },
+  "homepage": "https://github.com/ndwiv/nutripipe#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0",
+    "mongoose-int32": "^0.6.0"
+  }
+}
