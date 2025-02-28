@@ -31,6 +31,7 @@ router.get("/food", async function(req, res) {
       
         const food = await Food.find({
          description: {$regex: searchString, $options: 'i'}});
+         console.log(food.length);
         if (!food) {
             return res.send("<h2>No documents found</h2>");
         } else {
